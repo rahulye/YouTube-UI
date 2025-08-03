@@ -31,6 +31,11 @@
   font-weight: 500;
 }
 
+.time-stamp
+{
+  font-size: clamp(12px, 0.72vw, 25px);
+}
+
 .video-meta
 {
   display: grid;
