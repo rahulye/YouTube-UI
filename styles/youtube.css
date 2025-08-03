@@ -45,6 +45,7 @@
 
 .channel-profile
 {
+  margin-top: 3px;
   position: relative;
 }
 
@@ -112,27 +113,8 @@
 } 
 
 
-.title-and-views
-{
-  padding-left: 0px;
-}
-
-.title
-{
-  padding-bottom:5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-}
-
-
 .title-line, .video-stats p
 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
   line-height: 1.5;
   font-weight: 500;
   font-size: 0.97vw;
