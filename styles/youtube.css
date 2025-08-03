@@ -115,18 +115,31 @@
 .title
 {
   padding-bottom:5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
 }
 
-.title-line
+
+.title-line, .video-stats p
 {
-  line-height: 24px;
-  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 0.97vw;
+  font-size: clamp(20px, 0.97vw, 36px);
 }
 
 .video-stats p
 {
-  font-size: 13px;
   color: rgba(79, 74, 74, 0.859);
+  font-weight: 400;
+  font-size: 0.8vw;
+  font-size: clamp(16px, 0.8vw, 28px);
 }
 
 .video-link, .channel-link
