@@ -1,0 +1,161 @@
+
+.video-grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 15px;
+}
+
+.thumbnail-image
+{
+  border-radius: 10px;
+  width:100%;
+}
+
+.picture
+{
+  position: relative;
+}
+
+.time-stamp
+{
+  background-color: rgba(0, 0, 0, 0.617);
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  padding: 3px 4px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.video-meta
+{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  padding-top: 10px;
+}
+
+.channel-profile
+{
+  position: relative;
+}
+
+.channel-image, .more-info-channel-profile
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.more-info-channel-profile
+{
+  height: 60px;
+  background-color: rgb(187, 191, 176);
+  border-radius: 50%;
+}
+
+.channel-more-info
+{
+  display: flex;
+  position: absolute;
+  border-style: none;
+  border-width: 1px;
+  bottom: -35px;
+  left: 25px;
+  background-color: white;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.657);
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.more-info
+{
+  margin-left: 8px;
+  line-height: 24px;
+}
+
+.more-info-channel-name
+{
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.more-info-channel-subscribers
+{
+
+  font-size: 17px;
+  color: rgba(79, 74, 74, 0.859);
+}
+
+.channel-profile:hover .channel-more-info 
+{
+  opacity: 1;
+} 
+
+
+.title-and-views
+{
+  padding-left: 0px;
+}
+
+.title
+{
+  padding-bottom:5px;
+}
+
+.title-line
+{
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.video-stats p
+{
+  font-size: 13px;
+  color: rgba(79, 74, 74, 0.859);
+}
+
+.video-link, .channel-link
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@media(max-width: 960px)
+{
+  .video-grid
+  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width:961px) and (max-width:1800px)
+{
+  .video-grid
+  {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(min-width: 1801px)
+{
+  .video-grid
+  {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
