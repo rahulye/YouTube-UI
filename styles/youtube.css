@@ -118,7 +118,7 @@
   line-height: 1.5;
   font-weight: 500;
   font-size: 0.97vw;
-  font-size: clamp(20px, 0.97vw, 36px);
+  font-size: clamp(18px, 0.96vw, 40px);
 }
 
 .video-stats p
@@ -126,7 +126,7 @@
   color: rgba(79, 74, 74, 0.859);
   font-weight: 400;
   font-size: 0.8vw;
-  font-size: clamp(16px, 0.8vw, 28px);
+  font-size: clamp(15px, 0.8vw, 30px);
 }
 
 .video-link, .channel-link
