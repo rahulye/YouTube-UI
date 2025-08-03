@@ -36,6 +36,10 @@
 {
   height: 22px;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar-icon div
