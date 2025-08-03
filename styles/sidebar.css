@@ -42,33 +42,3 @@
 {
   font-size: 10px;
 }
-
-@media (max-width: 768px) {
-  .sidebar {
-    width: 100%;
-    height: 60px;
-    top: auto;
-    bottom: 0;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    border-right: none;
-    border-top: 1px solid rgba(128, 128, 128, 0.235);
-  }
-
-  .sidebar-icon {
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-  }
-
-  .sidebar-icon img {
-    margin-bottom: 4px;
-  }
-
-  .sidebar-icon div {
-    font-size: 10px;
-  }
-}

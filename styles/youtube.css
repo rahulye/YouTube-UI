@@ -151,39 +151,3 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
-@media(min-width: 1801px)
-{
-  .video-grid
-  {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 768px) {
-  .video-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .video-title {
-    font-size: 14px;
-  }
-
-  .channel-name,
-  .video-stats {
-    font-size: 12px;
-  }
-
-  .video-meta {
-    grid-template-columns: 40px 1fr;
-  }
-
-  .time-stamp {
-    font-size: 12px;
-  }
-
-  .more-info-channel-name,
-  .more-info-channel-subscribers {
-    font-size: 15px;
-  }
-}
