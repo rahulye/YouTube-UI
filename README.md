@@ -3,7 +3,7 @@ A simple YouTube homepage clone built entirely using **HTML** and **CSS**.
 
 ## Live Demo
 Deployed in Vercel
-🔗 [Check it out here](https://youtube-clone-rahul.vercel.app)
+🔗 [Check it out here](https://youtube-ui-rahul.vercel.app/)
 
 ## Features and Screenshots
 
