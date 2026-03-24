@@ -1,4 +1,4 @@
-# YouTube UI 📽️
+# YouTube UI 
 A simple YouTube homepage clone built entirely using **HTML** and **CSS**.
 
 ## Live Demo
@@ -26,7 +26,6 @@ Deployed in Vercel
 
 
 
-.
 
 
 
